@@ -1,0 +1,14 @@
+{
+  "name": "delegation-guard",
+  "owner": { "name": "Mohamed Tababi" },
+  "metadata": {
+    "description": "Single-plugin marketplace for delegation-guard."
+  },
+  "plugins": [
+    {
+      "name": "delegation-guard",
+      "source": "./",
+      "description": "Nudges the main session to hand reading, searching, research and review to subagents, and shows main-context fill and delegated tokens above the prompt."
+    }
+  ]
+}

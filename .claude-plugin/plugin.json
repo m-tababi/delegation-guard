@@ -1,0 +1,19 @@
+{
+  "name": "delegation-guard",
+  "version": "0.1.0",
+  "author": { "name": "Mohamed Tababi" },
+  "description": "Nudges the main session to hand reading, searching, research and review to subagents, and shows main-context fill and delegated tokens above the prompt.",
+  "license": "MIT",
+  "repository": "https://github.com/m-tababi/delegation-guard",
+  "homepage": "https://github.com/m-tababi/delegation-guard",
+  "keywords": ["delegation", "subagents", "context", "tokens", "hooks"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "threshold": {
+      "type": "number",
+      "title": "Reminder threshold",
+      "description": "Self-done reading/searching steps in one main-thread turn before the model is reminded to delegate (1-50).",
+      "default": 6
+    }
+  }
+}
