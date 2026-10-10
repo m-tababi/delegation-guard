@@ -46,7 +46,7 @@ Spawning a subagent from the main session resets the turn's count to 0, but does
 
 ## Installation
 
-The repository is a single-plugin marketplace. Because the repository is private, installing it requires read access to it on GitHub (for example via `gh auth login` or configured git credentials).
+The repository is a single-plugin marketplace.
 
 From a terminal:
 
